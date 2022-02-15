@@ -1,0 +1,17 @@
+<table >
+  <tr>
+    <th>id</th>
+    <th>data</th>
+    <th>nome do serviço</th>
+    <th>nome da cliente</th>
+    <th>valor</th>
+  </tr>
+  <tr *ngFor="let item of lista">
+    <td>{{item.id}}</td>
+    <td>{{item.dataDoServico}}</td>
+    <td>{{item.nomeDoServico}}</td>
+    <td>{{item.nomeCliente}}</td>
+    <td>{{item.valor}}</td>
+  </tr>
+  
+</table>
