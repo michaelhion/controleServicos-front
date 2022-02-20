@@ -1,0 +1,17 @@
+.container{
+    margin: 15px;
+    width: 75%;
+}
+
+.titulo{
+    font-weight: bold;
+    color: white;
+    margin-left: 15px;
+    background-color: rgb(51, 98, 192);
+}
+
+.linhas{
+    margin: 175px;
+    text-align: center;
+}
+
